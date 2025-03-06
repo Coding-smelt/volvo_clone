@@ -1,0 +1,124 @@
+.graysqare {
+    width: 1439px;
+    height: 1200px;
+    background-color: #fafafa;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.why {
+    font-size: 30px;
+    margin-top: 100px;
+
+}
+.bigimg {
+    width: 1230px;
+    height: auto;
+    margin-top: 60px;
+}
+.letterbox {
+    width: 1230px;
+    height: 150px;
+    /* background-color: aqua; */
+    /* position: relative; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.letter {
+    width: 394px;
+    height: 150px;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.letterdetail1 {
+    font-size: 20px;
+    color: black;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.letterdetail2 {
+    font-size: 16px;
+    color: gray;
+}
+.bluebox {
+    width: 125px;
+    height: 47px;
+    border: 1px solid #1c6bba;
+    border-radius: 4px;
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.bluebox:hover {
+    background-color: #284e80;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+.bluebox:hover .blueletter {
+    color: white;
+}
+.blueletter {
+    color: #1c6bba;
+    font-size: 14px;
+}
+.legbottom {
+    width: 1231px;
+    height: 528px;
+    /* background-color: aqua; */
+    margin-top: 110px;
+    background-image: url(https://www.volvocars.com/images/v/-/media/market-assets/korea/applications/dotcom/images/pdp/my23-xc90-recharge-banner_2560x1097.jpg?iar=0&w=1920);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.drive {
+    font-size: 33px;
+    color:white;
+    margin-top: 170px;
+    margin-left: 80px;
+
+
+}
+.experience {
+    font-size: 16px;
+    color: white;
+    margin-top: 23px;
+    margin-left: 80px;
+
+}
+.bluebox2 {
+    width: 125px;
+    height: 47px;
+    /* border: 1px solid white; */
+    border-radius: 4px;
+    margin-top: 40px;
+    margin-left: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+.bluebox2:hover {
+    background-color: #a3a3a3;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+.bluebox2:hover .blueletter {
+    color: white;
+}
+.blueletter2 {
+    color: black;
+    font-size: 14px;
+}

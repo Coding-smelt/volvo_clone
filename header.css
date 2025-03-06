@@ -1,0 +1,90 @@
+* {
+    margin: 0%;
+}
+.wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow:hidden;
+}
+
+.head_sqare {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 65px;
+    background-color: #fafafa;
+}
+.ourcars {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 155px;
+    height: 65px;
+    background-color: #fafafa;
+}
+.OurCars:hover {
+    text-decoration: underline;
+    transition-delay: 0.5s;
+    cursor: pointer;
+}        
+.menu:hover {
+    text-decoration: underline;
+    transition-delay: 0.5s;
+    cursor: pointer;
+}
+.volvoLogo {
+    cursor: pointer;
+}
+.volvomain {
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    width: 100%;
+    height: 672px;
+}
+.mainfront {
+    position: absolute;
+}
+.mainback {
+    position: relative;
+    align-items: top;
+    font-size: 20px;
+    color: white;
+}
+.mainback2 {
+    position: relative;
+    align-items: top;
+    font-size: 70px;
+    color: white;
+}
+.mainimage {
+    width: 100%
+}
+.mainbox1 {
+    text-align: center;
+    height: 400px;
+    padding: 30px;
+}
+.look {
+    position: relative;
+    font-size: 15px;
+    color: white;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+.look:hover {
+    cursor: pointer;
+    opacity: 0;
+}
+.lookout {
+    padding: 20px;
+}
